@@ -1,4 +1,9 @@
 import React from 'react'
+import port2 from '../img/port-2.jpg';
+import workers2 from '../img/wworkers2.png';
+import byteIt from '../img/byte.jpg'
+import nikon from '../img/Nkn.png';
+
 
 function projects() {
   return (
@@ -12,36 +17,12 @@ function projects() {
 
 
 				<div className="portfolio-wrapper">
-				<ul className="portfolio-filter text-center mb-30">
-						<li className="active" data-filter="*">All</li>
-						<li data-filter=".website">website</li>
-					</ul> 
+
 					<div className="row portfolio-items">
-						<div className="col-md-4 col-sm-6 padding-10">
-							<div className="card">
-								<img src="img/port-2.jpg" className="card-img-top" alt="img"/>
-								<div className="card-body">
-									<h5 className="card-title">
-										<a href="#" type="button" className="img-popup mt-4" data-toggle="modal" data-target="#exampleModal" data-id="1">
-											Library Xpress
-										</a>
-									</h5>
-									<div className="btns">
-										<button type="button" className="btn default-btn btn-sm lh-1 p-2 mt-3" data-toggle="modal" data-target="#exampleModal" data-id="1">
-											View Detail
-										</button>
-										<br />
-										<a href="https://librarycenter-production.up.railway.app/" target="_blank" className="btn default-btn btn-sm lh-1 p-2 mt-3">
-											Preview
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
+
 					<div className="col-md-4 col-sm-6 padding-10 single-item website website">
 							<div className="portfolio-box">
-								<img src="img/port-2.jpg" alt="img"/>
+								<img src={port2} alt="img"/>
 								<div className="portfolio-content">
 									<h3 className="text-center">
 										<a href="#" type="button" className="img-popup mt-4" data-toggle="modal" data-target="#exampleModal"
@@ -69,7 +50,7 @@ function projects() {
 
 						<div className="col-md-4 col-sm-6 padding-10 single-item website website">
 							<div className="portfolio-box">
-								<img src="img/wworkers2.png  " alt="img"/>
+								<img src={workers2} alt="img"/>
 								<div className="portfolio-content">
 									<h3 className="text-center">
 										<a href="#" type="button" className="img-popup mt-4" data-toggle="modal" data-target="#exampleModal"
@@ -96,7 +77,7 @@ function projects() {
 						</div>
 						<div className="col-md-4 col-sm-6 padding-10 single-item website website">
 							<div className="portfolio-box">
-								<img src="img/ByteIt.JPG" alt="img"/>
+								<img src={byteIt} alt="img"/>
 								<div className="portfolio-content">
 									<h3 className="text-center">
 										<a href="#" type="button" className="img-popup mt-4" data-toggle="modal" data-target="#exampleModal"
@@ -124,7 +105,7 @@ function projects() {
 
 						<div className="col-md-4 col-sm-6 padding-10 single-item website website">
 							<div className="portfolio-box">
-								<img src="img/Nikon2.PNG" alt="img"/>
+								<img src={nikon} alt="img"/>
 								<div className="portfolio-content">
 									<h3 className="text-center">
 										<a href="#" type="button" className="img-popup mt-" data-toggle="modal" data-target="#exampleModal"
