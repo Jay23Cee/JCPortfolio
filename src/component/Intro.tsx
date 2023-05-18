@@ -7,7 +7,7 @@ interface AboutProps {
 
 const Intro = () => {
   return (
-    <section id="about" className="py-12 px-4 md:px-5" data-scroll-index={1}>
+    <section id="about" className=" w-screen bg-red-800 flex flex-col items-center justify-center text-center" data-scroll-index={1}>
       <div className="container mx-auto">
         <div className="flex flex-wrap items-start">
           <div className="w-full md:w-12/12 sm:py-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
