@@ -12,12 +12,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className=' bg-blue-00'>
     <Nav/>
      <Intro/>
      <Skill/>
      <Projects/>
-    </>
+    </div>
   )
 }
 
