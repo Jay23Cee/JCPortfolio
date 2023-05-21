@@ -4,7 +4,7 @@
     "pro_title": "Library Xpress",
     "code_link": "https://github.com/Jay23Cee/library_center",
     "pro_link": "https://librarycenter-production.up.railway.app/",
-    "pro_thumb": "../../public//img/libraryxpress.jpg",
+    "pro_thumb": "../../public/img/libraryxpress.jpg",
     "summary": "Library Xpress is a comprehensive web application designed to streamline library management. With Library Xpress, users can effortlessly browse the library's catalog, borrow books, and manage their accounts. Administrators have access to powerful tools for managing the library's collection and user accounts.",
     "obstacles": "",
     "languages": ["Go-lang", "Typescript"],

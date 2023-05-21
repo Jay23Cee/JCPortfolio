@@ -1,4 +1,7 @@
-
+import libraryxpress from '../img/libraryxpress.jpg';
+import wworkers from '../img/wworkers.jpg';
+import byteit from '../img/Byteit.jpg';
+import nikon from '../img/nikon.png';
 
 interface CardProps {
   pro_id: string;
@@ -12,6 +15,15 @@ interface CardProps {
   features: string[];
 
 }
+
+
+const imageMap:Record<string, string>  = {
+  '1': libraryxpress,
+  '2': wworkers,
+  '3': byteit,
+  '4': nikon,
+};
+
 
 function Card({ pro_id, pro_title, code_link, pro_link, pro_thumb, summary, obstacles, languages, features,  }: CardProps) {
   const handleDemoClick = () => {
@@ -28,7 +40,7 @@ console.log(pro_id, obstacles)
     <div className="flex flex-col justify-center items-center bg-white rounded-2xl my-4 mx-auto w-full xl:justify-start lg:max-w-4xl p-4 border border-gray-300 shadow-lg">
       <div className="xl:w-2/3 flex justify-center ">
         <div className="max-w-full">
-          <img className="w-full h-auto" src={pro_thumb} alt={pro_title} />
+          <img className="w-full h-auto" src={imageMap[pro_id]} alt={pro_title} />
         </div>
       </div>
       <div className="xl:w-2/3 flex flex-col justify-start items-start xl:items-stretch px-4">
