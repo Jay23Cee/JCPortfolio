@@ -1,0 +1,82 @@
+[
+  {
+    "pro_id": "1",
+    "pro_title": "Library Xpress",
+    "code_link": "https://github.com/Jay23Cee/library_center",
+    "pro_link": "https://librarycenter-production.up.railway.app/",
+    "pro_thumb": "../src/img/libraryxpress.jpg",
+    "summary": "Library Xpress is a comprehensive web application designed to streamline library management. With Library Xpress, users can effortlessly browse the library's catalog, borrow books, and manage their accounts. Administrators have access to powerful tools for managing the library's collection and user accounts.",
+    "obstacles": "",
+    "languages": ["Go-lang", "Typescript"],
+    "features": [
+      "Efficient data storage using MongoDB.",
+      "C.R.U.D. API for seamless management of the library's collection.",
+      "Secure user authentication and authorization with JWT and cookies.",
+      "Deployment through a Docker container for easy setup.",
+      "Responsive design optimized for different screen sizes.",
+      "Protected resources with client and admin authentication."
+    ],
+    "updates": [
+      "Enhanced user experience by replacing the table catalog with small divs for each item.",
+      "Implemented a rating system for user reviews to improve book recommendations."
+    ]
+  },
+  {
+    "pro_id": "2",
+    "pro_title": "Willing Workers",
+    "code_link": "https://github.com/Jay23Cee/WillingWorkersSite-1",
+    "pro_link": "https://singular-biscotti-08deb7.netlify.app/",
+    "pro_thumb": "../src/img/wworkers.jpg",
+    "summary": "Willing Workers is a website that offers comprehensive services for individuals with special needs. It now features a career section for job postings. Admins and moderators can easily create and post job listings, which are displayed on the website for interested applicants to view. Applicants can conveniently submit their application forms and PDF resumes online. Once submitted, the application and resume are automatically sent via email to the designated hiring manager, streamlining the hiring process and providing an efficient way for employers to find their perfect match.",
+    "obstacles": "",
+    "languages": ["React", "Next.js", "TypeScript", "JavaScript", "PostgreSQL", "HTML", "Sass", "CSS"],
+    "features": [
+      "Dashboard with user roles for admin and moderator.",
+      "Ability for admin and moderator to create job postings.",
+      "Ability for admin to create new admins and moderators.",
+      "Job applications submitted online and automatically sent to hiring managers via email using SendGrid.",
+      "Responsive design for different screen sizes.",
+      "Interactive animations to engage users.",
+      "Contact form for user queries."
+    ],
+    "updates": ["Updated the 'About Us' section with the latest information."]
+  },
+  {
+    "pro_id": "3",
+    "pro_title": "Byte It",
+    "code_link": "https://github.com/Jay23Cee/next13-experiment",
+    "pro_link": "https://next13-experiment-beta.vercel.app/",
+    "pro_thumb": "../src/img/Byteit.jpg",
+    "summary": "Byte It is a web application that allows users to create and store posts in a PostgreSQL database. It utilizes Google login API for authentication. The project is built with Next.js and TypeScript. Users have access to a dashboard where they can view and delete their own posts.",
+    "obstacles": "",
+    "languages": ["JavaScript", "HTML", "Sass", "CSS", "TypeScript"],
+    "features": [
+      "Support for multiple authentication providers, including Google login API.",
+      "Efficient data fetching with Next.js's built-in data fetching methods, such as `getStaticProps` or `getServerSideProps`.",
+      "Responsive design for different screen sizes, optimized for mobile and desktop.",
+      "User dashboard with the ability to view and delete their own posts.",
+      "Advanced search functionality with filter and sorting options.",
+      "Integration with a third-party email service for email notifications and newsletters.",
+      "Social media sharing buttons for easy sharing of posts on popular social media platforms."
+    ]
+  },
+  {
+    "pro_id": "4",
+    "pro_title": "Nikon D850 Website",
+    "code_link": "https://github.com/Jay23Cee/Nikon_850_website",
+    "pro_link": "https://vigilant-agnesi-39b86d.netlify.app/",
+    "pro_thumb": "../src/img/nikon.png",
+    "summary": "The Nikon D850 Website provides comprehensive information and reviews about the Nikon D850 camera.",
+    "obstacles": "",
+    "languages": ["JavaScript", "HTML", "Sass", "CSS"],
+    "features": [
+      "Responsive design for different screen sizes.",
+      "Animated image slider for showcasing product images.",
+      "Contact form for user queries."
+    ],
+    "updates": [
+      "Added a gallery of images to showcase different aspects of the camera.",
+      "Included information on where to buy the camera."
+    ]
+  }
+]
