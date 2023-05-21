@@ -13,8 +13,8 @@ RUN npm install
 # Copy the rest of the application code to the container
 COPY . .
 
-# Build the React app
+# Build the Vite app
 RUN npm run build
 
 # Specify the command to run the app
-CMD ["npm", "start"]
+CMD ["npm", "run", "preview"]
