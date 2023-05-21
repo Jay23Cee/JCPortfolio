@@ -21,7 +21,6 @@ function Projects() {
                     pro_title={project.pro_title}
                     code_link={project.code_link}
                     pro_link={project.pro_link}
-                    pro_thumb={project.pro_thumb}
                     summary={project.summary}
                     languages={project.languages}
                     features={project.features}
