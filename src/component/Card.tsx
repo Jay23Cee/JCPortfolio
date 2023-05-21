@@ -8,7 +8,7 @@ interface CardProps {
   pro_title: string;
   code_link: string;
   pro_link: string;
-  pro_thumb: string;
+ 
   summary: string;
   obstacles?: string;
   languages: string[];
@@ -25,7 +25,7 @@ const imageMap:Record<string, string>  = {
 };
 
 
-function Card({ pro_id, pro_title, code_link, pro_link, pro_thumb, summary, obstacles, languages, features,  }: CardProps) {
+function Card({ pro_id, pro_title, code_link, pro_link, summary, obstacles, languages, features,  }: CardProps) {
   const handleDemoClick = () => {
     // Redirect to the project link
     window.location.href = pro_link;
