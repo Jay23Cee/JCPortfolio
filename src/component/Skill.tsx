@@ -1,13 +1,13 @@
 
 import "../index.css";
 // Importing the images
-import htmlLogo from "../img/logos/html.svg";
-import cssLogo from "../img/logos/css.svg";
-import jsLogo from "../img/logos/js.svg";
-import javaLogo from "../img/logos/java.svg";
-import mongodbLogo from "../img/logos/mongodb.svg";
-import reactLogo from "../img/logos/react.svg";
-import mysqlLogo from "../img/logos/mysql.svg";
+import htmlLogo from "../../public/img/logos/html.svg";
+import cssLogo from "../../public/img/logos/css.svg";
+import jsLogo from "../../public/img/logos/js.svg";
+import javaLogo from "../../public/img/logos/java.svg";
+import mongodbLogo from "../../public/img/logos/mongodb.svg";
+import reactLogo from "../../public/img/logos/react.svg";
+import mysqlLogo from "../../public/img/logos/mysql.svg";
 
 function skill() {
   return (
