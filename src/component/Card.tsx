@@ -1,7 +1,13 @@
 import libraryxpress from '../img/libraryxpress.jpg';
 import wworkers from '../img/wworkers2.jpg';
+import wworkers1 from '../img/wworkers_adminn.jpg';
+import wworkers2 from '../img/wworkers_career.jpg';
 import byteit from '../img/byte.jpg';
 import nikon from '../img/Nikon2.png';
+
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 
 interface CardProps {
   pro_id: string;
@@ -17,15 +23,16 @@ interface CardProps {
 }
 
 
-const imageMap:Record<string, string>  = {
-  '1': libraryxpress,
-  '2': wworkers,
-  '3': byteit,
-  '4': nikon,
+const imageMap: Record<string, string[]> = {
+  '1': [libraryxpress],
+  '2': [wworkers, wworkers1, wworkers2],
+  '3': [byteit],
+  '4': [nikon],
 };
 
 
 function Card({ pro_id, pro_title, code_link, pro_link, summary, obstacles, languages, features,  }: CardProps) {
+  const imagePaths = imageMap[pro_id] || []; 
   const handleDemoClick = () => {
     // Redirect to the project link
     window.location.href = pro_link;
@@ -39,9 +46,13 @@ console.log(pro_id, obstacles)
   return (
     <div className="flex flex-col justify-center items-center bg-white rounded-2xl my-4 mx-auto w-full xl:justify-start lg:max-w-4xl p-4 border border-gray-300 shadow-lg">
       <div className="xl:w-2/3 flex justify-center ">
-        <div className="max-w-full">
-          <img className="w-full h-auto" src={imageMap[pro_id]} alt={pro_title} />
-        </div>
+      <Carousel showArrows={true} infiniteLoop={true}>
+          {imagePaths.map((imagePath, index) => (
+            <div key={index}>
+              <img className="w-full h-auto" src={imagePath} alt={pro_title} />
+            </div>
+          ))}
+        </Carousel>
       </div>
       <div className="xl:w-2/3 flex flex-col justify-start items-start xl:items-stretch px-4">
         <h1 className="text-xl font-bold my-2 xl:text-left text-gray-800">{pro_title}</h1>
