@@ -1,7 +1,7 @@
 import libraryxpress from '../img/libraryxpress.jpg';
 import wworkers from '../img/wworkers2.jpg';
 import byteit from '../img/byte.jpg';
-import nikon from '../img/Nkn.png';
+import nikon from '../img/Nikon2.png';
 
 interface CardProps {
   pro_id: string;
