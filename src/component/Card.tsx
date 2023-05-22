@@ -1,5 +1,5 @@
 import libraryxpress from '../img/libraryxpress.jpg';
-import wworkers from '../img/wworkers.jpg';
+import wworkers from '../img/wworkers2.jpg';
 import byteit from '../img/byte.jpg';
 import nikon from '../img/Nkn.png';
 
