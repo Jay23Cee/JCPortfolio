@@ -1,6 +1,26 @@
 [
   {
     "pro_id": "1",
+    "pro_title": "Willing Workers",
+    "code_link": "https://github.com/Jay23Cee/WillingWorkersSite-1",
+    "pro_link": "willingworkers-web2.vercel.app",
+    "pro_thumb": "../../public/img/wworkers.jpg",
+    "summary": "Willing Workers is a website that offers comprehensive services for individuals with special needs. It now features a career section for job postings. Admins and moderators can easily create and post job listings, which are displayed on the website for interested applicants to view. Applicants can conveniently submit their application forms and PDF resumes online. Once submitted, the application and resume are automatically sent via email to the designated hiring manager, streamlining the hiring process and providing an efficient way for employers to find their perfect match.",
+    "obstacles": "",
+    "languages": ["React", "Next.js", "TypeScript", "JavaScript", "PostgreSQL", "HTML", "Sass", "CSS"],
+    "features": [
+      "Dashboard with user roles for admin and moderator.",
+      "Ability for admin and moderator to create job postings.",
+      "Ability for admin to create new admins and moderators.",
+      "Job applications submitted online and automatically sent to hiring managers via email using SendGrid.",
+      "Responsive design for different screen sizes.",
+      "Interactive animations to engage users.",
+      "Contact form for user queries."
+    ],
+    "updates": ["Updated the 'About Us' section with the latest information."]
+  },
+  {
+    "pro_id": "2",
     "pro_title": "Library Xpress",
     "code_link": "https://github.com/Jay23Cee/library_center",
     "pro_link": "https://librarycenter-production.up.railway.app/",
@@ -21,26 +41,7 @@
       "Implemented a rating system for user reviews to improve book recommendations."
     ]
   },
-  {
-    "pro_id": "2",
-    "pro_title": "Willing Workers",
-    "code_link": "https://github.com/Jay23Cee/WillingWorkersSite-1",
-    "pro_link": "https://singular-biscotti-08deb7.netlify.app/",
-    "pro_thumb": "../../public/img/wworkers.jpg",
-    "summary": "Willing Workers is a website that offers comprehensive services for individuals with special needs. It now features a career section for job postings. Admins and moderators can easily create and post job listings, which are displayed on the website for interested applicants to view. Applicants can conveniently submit their application forms and PDF resumes online. Once submitted, the application and resume are automatically sent via email to the designated hiring manager, streamlining the hiring process and providing an efficient way for employers to find their perfect match.",
-    "obstacles": "",
-    "languages": ["React", "Next.js", "TypeScript", "JavaScript", "PostgreSQL", "HTML", "Sass", "CSS"],
-    "features": [
-      "Dashboard with user roles for admin and moderator.",
-      "Ability for admin and moderator to create job postings.",
-      "Ability for admin to create new admins and moderators.",
-      "Job applications submitted online and automatically sent to hiring managers via email using SendGrid.",
-      "Responsive design for different screen sizes.",
-      "Interactive animations to engage users.",
-      "Contact form for user queries."
-    ],
-    "updates": ["Updated the 'About Us' section with the latest information."]
-  },
+
   {
     "pro_id": "3",
     "pro_title": "Byte It",

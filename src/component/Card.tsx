@@ -24,15 +24,15 @@ interface CardProps {
 
 
 const imageMap: Record<string, string[]> = {
-  '1': [libraryxpress],
-  '2': [wworkers, wworkers1, wworkers2],
-  '3': [byteit],
-  '4': [nikon],
+  'Library Xpress': [libraryxpress],
+  'Willing Workers': [wworkers, wworkers1, wworkers2],
+  'Byte It': [byteit],
+  'Nikon D850 Website': [nikon],
 };
 
 
 function Card({ pro_id, pro_title, code_link, pro_link, summary, obstacles, languages, features,  }: CardProps) {
-  const imagePaths = imageMap[pro_id] || []; 
+  const imagePaths = imageMap[pro_title] || []; 
   const handleDemoClick = () => {
     // Redirect to the project link
     window.location.href = pro_link;
