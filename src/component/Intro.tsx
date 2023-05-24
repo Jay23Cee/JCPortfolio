@@ -1,9 +1,13 @@
+import React from 'react';
 
-import "../index.css";
-
+import resumePDF from '/pdf/Jackson_Cortez_Resume_2023.pdf';
 
 
 const Intro = () => {
+  const handleDownload = () => {
+    window.open(resumePDF, '_blank');
+  };
+
   return (
     <section id="about" className="w-screen  flex flex-col items-center justify-center text-center" data-scroll-index={1}>
       <div className="container mx-auto">
@@ -20,9 +24,7 @@ const Intro = () => {
                 <br /><br />
                 Take a look at my resume and explore some of the exciting projects I have been working on recently.
               </p>
-              <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700" onClick={() => {
-                console.log("Hey there.");
-              }}>
+              <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700" onClick={handleDownload}>
                 Download Resume
               </button>
             </div>
