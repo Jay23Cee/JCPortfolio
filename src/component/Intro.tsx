@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import resumePDF from '/pdf/Jackson_Cortez_Resume_2023.pdf';
 
