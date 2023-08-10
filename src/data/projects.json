@@ -19,28 +19,30 @@
     ],
     "updates": ["Updated the 'About Us' section with the latest information."]
   },
-  {
-    "pro_id": "2",
-    "pro_title": "Library Xpress",
-    "code_link": "https://github.com/Jay23Cee/library_center",
-    "pro_link": "https://librarycenter-production.up.railway.app/",
-    "pro_thumb": "../../public/img/libraryxpress.jpg",
-    "summary": "Library Xpress is a comprehensive web application designed to streamline library management. With Library Xpress, users can effortlessly browse the library's catalog, borrow books, and manage their accounts. Administrators have access to powerful tools for managing the library's collection and user accounts.",
-    "obstacles": "",
-    "languages": ["Go-lang", "Typescript"],
-    "features": [
-      "Efficient data storage using MongoDB.",
-      "C.R.U.D. API for seamless management of the library's collection.",
-      "Secure user authentication and authorization with JWT and cookies.",
-      "Deployment through a Docker container for easy setup.",
-      "Responsive design optimized for different screen sizes.",
-      "Protected resources with client and admin authentication."
-    ],
-    "updates": [
-      "Enhanced user experience by replacing the table catalog with small divs for each item.",
-      "Implemented a rating system for user reviews to improve book recommendations."
-    ]
-  },
+{
+  "pro_id": "2",
+  "pro_title": "Library Xpress",
+  "code_link": "https://github.com/Jay23Cee/library_center",
+  "pro_link": "https://librarycenter-production.up.railway.app/",
+  "pro_thumb": "../../public/img/libraryxpress.jpg",
+  "summary": "Library Xpress is a comprehensive web application designed to streamline library management. With Library Xpress, users can effortlessly browse the library's catalog, borrow books, and manage their accounts. Administrators have access to powerful tools for managing the library's collection and user accounts.",
+  "obstacles": "",
+  "languages": ["Go-lang", "Typescript"],
+  "features": [
+    "Efficient data storage using MongoDB.",
+    "C.R.U.D. API for seamless management of the library's collection.",
+    "Secure user authentication and authorization with JWT and cookies.",
+    "Deployment through a Docker container for easy setup.",
+    "Responsive design optimized for different screen sizes.",
+    "Protected resources with client and admin authentication.",
+    "Leveraged AI Midjourney for dynamic image population, enhancing visual representation of books and resources."
+  ],
+  "updates": [
+    "Enhanced user experience by replacing the table catalog with small divs for each item.",
+    "Implemented a rating system for user reviews to improve book recommendations."
+  ]
+}
+,
 
   {
     "pro_id": "3",
@@ -62,7 +64,7 @@
     ]
   },
   {
-    "pro_id": "4",
+    "pro_id": "6",
     "pro_title": "Nikon D850 Website",
     "code_link": "https://github.com/Jay23Cee/Nikon_850_website",
     "pro_link": "https://vigilant-agnesi-39b86d.netlify.app/",
